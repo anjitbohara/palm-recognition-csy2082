@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Large files
+palm_dataset/
+*.keras
+*.h5
+*.pkl
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+
+
+
+readme.txt
+backup
