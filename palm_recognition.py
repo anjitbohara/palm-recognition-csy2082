@@ -189,7 +189,7 @@ class PalmDatasetManager:
         
         return count
     
-    def preprocess_image(self, img_path):
+    def preprocess_image(self, img_path='palm_dataset/person_1/p1_img1.jpeg'):
         """
         Preprocess a single image for the model.
         
@@ -319,7 +319,4 @@ if __name__ == "__main__":
     image_name = 'p1_img1.jpeg'
     image_pathp1_img1 = os.path.join(images_path, image_name)
 
-    image = cv2.imread(image_pathp1_img1)
-    cv2.imshow('person1 image1', image)
-    cv2.waitKey(0)
-    cv2.destroyAllWindows()
+    print(PalmDatasetManager().preprocess_image())
