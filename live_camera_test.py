@@ -9,7 +9,6 @@ MODEL_PATH = "palm_recognition_model.h5"
 EMBEDDING_PATH = "reference_embeddings.pkl"
 IMG_SIZE = 128
 CAMERA_INDEX = 0
-
 CONFIDENCE_THRESHOLD = 0.60
 EMBEDDING_DISTANCE_THRESHOLD = 1.2
 # ==========================================
